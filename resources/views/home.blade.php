@@ -338,8 +338,10 @@
         </div>
         <div class="col-lg-6">
           <h2 class="footer-heading mb-4">Address</h2>
-          <p></p>
-		        <a href="#" class="fa fa-facebook"></a>
+          <p>174 Clarkin Road, Fairfield,<br> Hamilton 3791</p>
+	   <p>Phone : (07) 855 6874 or 02102844736</p>
+	   <p>Email : bosscutshamilton@gmail.com</p>
+	    <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-google"></a>
             <a href="#" class="fa fa-linkedin"></a>
             <a href="#" class="fa fa-youtube"></a>
@@ -356,10 +358,10 @@
     <div class="col-md-12">
       <div class="border-top pt-5">
         <p>
-      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      
        <strong>Copyright &copy; 2019 <a href="#">Barbershop</a>.</strong> All rights
     reserved.
-      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+     
       </p>
       </div>
     </div>
