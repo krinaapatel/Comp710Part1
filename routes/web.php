@@ -17,7 +17,9 @@ use Illuminate\Support\Facades\Input;
 Route::get('/', function () {
     return view('home');
 });
-
+Route::get('/appointmentBooking', function () {
+    return view('addAppointment');
+});
 
 Route::get('/admin', function () {
     return view('auth.login');
@@ -34,9 +36,15 @@ Route::get('/clear-cache', function() {
     return "Cache is cleared";
 });
 
+Route::resource('appoitment','AppointmentController');
 Route::resource('services','ServicesController');
-
+Route::resource('discount','DiscountController');
 Route::resource('user','UserController');
+Route::resource('role','RoleController');
+
+
+
+
 
 
 Auth::routes();
