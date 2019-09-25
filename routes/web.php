@@ -1,4 +1,7 @@
 <?php
+<<<<<<< HEAD
+=======
+>>>>>>> eb72b5c0f1a2be46f05a60d160c2385cf4771b21
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
 /*
@@ -15,14 +18,24 @@ use Illuminate\Support\Facades\Input;
 Route::get('/', function () {
     return view('home');
 });
+<<<<<<< HEAD
 Route::get('/appointmentBooking', function () {
     return view('addAppointment');
 });
+=======
+
+>>>>>>> eb72b5c0f1a2be46f05a60d160c2385cf4771b21
 
 Route::get('/admin', function () {
     return view('auth.login');
 });
 
+<<<<<<< HEAD
+=======
+
+Route::get('/getAge','AppointmentController@getAge');
+
+>>>>>>> eb72b5c0f1a2be46f05a60d160c2385cf4771b21
 
 Route::get('/clear-cache', function() {
     Artisan::call('cache:clear');
@@ -34,7 +47,10 @@ Route::resource('appoitment','AppointmentController');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin', function(){
+<<<<<<< HEAD
 
+=======
+   
     return view('/dashbord');
 })->middleware('auth','Admin');
 
