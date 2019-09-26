@@ -15,12 +15,7 @@ class SuperAdmin
      */
     public function handle($request, Closure $next)
     {
-        if (Auth::check() && Auth::user()->roleId == 'SuperAdmin') {
-            return $next($request);
-        }
-        else (Auth::check() && Auth::user()->roleId == 'Admin') {
-            return redirect('/admin');
-        }
+
         
     }
 }

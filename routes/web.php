@@ -1,8 +1,10 @@
 <?php
 
+
+
+/*>>>>>>> branch1
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
-/*
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
@@ -16,18 +18,15 @@ use Illuminate\Support\Facades\Input;
 Route::get('/', function () {
     return view('home');
 });
+
 Route::get('/appointmentBooking', function () {
     return view('addAppointment');
 });
 
+
 Route::get('/admin', function () {
     return view('auth.login');
 });
-
-Route::get('/allServices','AppointmentController@allServices');
-Route::get('/getPrice','AppointmentController@getPrice');
-Route::get('/checkCustomer','AppointmentController@checkCustomer');
-Route::get('/getAge','AppointmentController@getAge');
 
 
 Route::get('/clear-cache', function() {
@@ -36,11 +35,3 @@ Route::get('/clear-cache', function() {
 });
 
 Route::resource('appoitment','AppointmentController');
-Route::resource('services','ServicesController');
-Route::resource('discount','DiscountController');
-Route::resource('user','UserController');
-Route::resource('role','RoleController');
-
-
-Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
