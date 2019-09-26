@@ -1,6 +1,5 @@
 <?php
-use App\Student;
-use App\Employee;
+
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
 /*
@@ -43,19 +42,5 @@ Route::resource('user','UserController');
 Route::resource('role','RoleController');
 
 
-
-
-
-
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/admin', function(){
-    //echo "Hello Admin";
-    //return redirect('/institute');
-    return view('/dashbord');
-})->middleware('auth','Admin');
-
-Route::get('/superAdmin', function(){
-   
-    return view('/dashbord');
-})->middleware('auth','SuperAdmin');
