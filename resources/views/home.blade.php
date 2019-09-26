@@ -44,7 +44,7 @@
 
           <div class="col-3 ">
             <div class="site-logo">
-              <a href="index.html">Barbershop</a>
+              <a href="#">Barbershop</a>
             </div>
           </div>
 
@@ -79,7 +79,7 @@
     <div class="row align-items-center justify-content-center text-center">
       <div class="col-md-7">
         <h1 class="mb-3">More Than Just A Haircut</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta veritatis in tenetur doloremque, maiores doloribus officia iste. Dolores.</p>
+        <p>We are offering different type of services hair cut, shaving, Face Message.</p>
         <p><a href="#" class="btn btn-primary">Read More</a></p>
       </div>
     </div>
@@ -100,8 +100,9 @@
 
     </div>
     <div class="col-lg-5 ml-auto pl-lg-5 text-center">
-      <h3 class="scissors text-center">Welcome To Barberz!</h3>
-      <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt nemo vel earum maxime neque!</p>
+      <h3 class="scissors text-center">Welcome To Barberzshop</h3>
+      <p class="mb-5 lead">If you are looking for the finest in men's grooming, we are confident that you will find barbershop’s unmatched product quality and prestigious tradition extremely compelling.
+</p>
       <p><a href="#" class="btn btn-primary">Learn More</a></p>
     </div>
   </div>
@@ -115,7 +116,7 @@
   <div class="row justify-content-center  mb-5">
     <div class="col-md-7 text-center">
       <h3 class="scissors text-center">Services &amp; Pricing</h3>
-      <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt nemo vel earum maxime neque!</p>
+      <p class="mb-5 lead">This barbershop offers its exclusive clientele a new level of luxury service unrivalled anywhere in the city</p>
 
       <p class="text-center">
         <a href="#" class="btn btn-primary custom-prev">Prev</a>
@@ -187,7 +188,7 @@
   <div class="row justify-content-center mb-5">
     <div class="col-md-7 text-center">
       <h3 class="scissors text-center">More Hair Styles</h3>
-      <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt nemo vel earum maxime neque!</p>
+      <p class="mb-5 lead">Welcome to our shops that has various type of styles available here. Come and book and appointment with latest offers</p>
     </div>
   </div>
   <div class="row hair-style">
@@ -223,7 +224,7 @@
   <div class="row justify-content-center text-center">
     <div class="col-7 text-center mb-5">
       <h2 class="text-white scissors primary-color-icon text-center">More Services</h2>
-      <p class="lead text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quo doloribus, suscipit libero, voluptate aliquam.</p>
+      <p class="lead text-white">More than these other services that we offer in our shop. Get discount and offers by coming at our shop. Come and get relax.</p>
     </div>
   </div>
   <div class="row">
@@ -234,7 +235,7 @@
         </span>
         <div class="service-1-contents">
           <h3>Hair Cut</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+          <p>Full style and cut to suit your face shape, professionally styled with a hot towel to finish.</p>
         </div>
       </div>
     </div>
@@ -245,7 +246,7 @@
         </span>
         <div class="service-1-contents">
           <h3>Facial &amp; Body Care</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+          <p>Proovide various types of facial with massage and skin care.</p>
         </div>
       </div>
     </div>
@@ -256,7 +257,7 @@
         </span>
         <div class="service-1-contents">
           <h3>Massages</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+          <p>We offer full body massage with gently scrubing. </p>
         </div>
       </div>
     </div>
@@ -268,7 +269,7 @@
         </span>
         <div class="service-1-contents">
           <h3>Hair Cut</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+          <p>We cut the hair with shae that suits your face using hot towel.</p>
         </div>
       </div>
     </div>
@@ -279,7 +280,7 @@
         </span>
         <div class="service-1-contents">
           <h3>Facial &amp; Body Care</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+          <p>fruit facial, herbal facial, remove blackeads and give tips for ody care.</p>
         </div>
       </div>
     </div>
@@ -290,7 +291,7 @@
         </span>
         <div class="service-1-contents">
           <h3>Massages</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+          <p></p>
         </div>
       </div>
     </div>
@@ -301,19 +302,12 @@
 
 
 
-
-
-
-
-
-
-
 <div class="site-section section-3" data-stellar-background-ratio="0.5" style="background-image: url('images/hero_1.jpg');">
 <div class="container">
   <div class="row justify-content-center text-center">
     <div class="col-7 text-center mb-5">
       <h2 class="text-white scissors primary-color-icon text-center">Quality Haircut</h2>
-      <p class="lead text-white mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quo doloribus, suscipit libero, voluptate aliquam.</p>
+      <p class="lead text-white mb-5">We serve services as per users aspectation and satisfaction.</p>
       <p><a href="#" class="btn btn-primary">Contact Us Now</a></p>
     </div>
   </div>
@@ -344,8 +338,10 @@
         </div>
         <div class="col-lg-6">
           <h2 class="footer-heading mb-4">Address</h2>
-          <p></p>
-		        <a href="#" class="fa fa-facebook"></a>
+          <p>174 Clarkin Road, Fairfield,<br> Hamilton 3791</p>
+	   <p>Phone : (07) 855 6874 or 02102844736</p>
+	   <p>Email : bosscutshamilton@gmail.com</p>
+	    <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-google"></a>
             <a href="#" class="fa fa-linkedin"></a>
             <a href="#" class="fa fa-youtube"></a>
@@ -362,10 +358,10 @@
     <div class="col-md-12">
       <div class="border-top pt-5">
         <p>
-      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      
        <strong>Copyright &copy; 2019 <a href="#">Barbershop</a>.</strong> All rights
     reserved.
-      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+     
       </p>
       </div>
     </div>
