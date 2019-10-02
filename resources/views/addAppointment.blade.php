@@ -56,14 +56,15 @@
 
 
             <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                <li class="active"><a href="{{url('services')}}" class="nav-link">Book Appoitment</a></li>
-                   <li><a href="{{url('about')}}" class="nav-link">About Us</a></li>
-                   <li><a href="{{url('services-page')}}" class="nav-link">Services</a></li>
-                   <li><a href="{{url('Gallery')}}" class="nav-link">Gallery</a></li>
-                   <li><a href="{{url('contact')}}" class="nav-link">Contact</a></li>
-              </ul>
-            </nav>
+       <ul class="site-menu main-menu js-clone-nav ml-auto ">
+         <li><a href="{{url('appointmentBooking')}}" class="nav-link">Book Appoitment</a></li>
+         <li><a href="{{url('about')}}" class="nav-link">About Us</a></li>
+        <li><a href="{{url('services-page')}}" class="nav-link">Services</a></li>
+           <li  class="active"><a href="{{url('Gallery')}}" class="nav-link">Gallery</a></li>
+
+         <li><a href="{{url('contact')}}" class="nav-link">Contact Us</a></li>
+       </ul>
+     </nav>
           </div>
 
 
