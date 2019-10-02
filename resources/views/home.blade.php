@@ -89,7 +89,7 @@
   <div class="row">
     <div class="col-lg-6 mb-5 mb-lg-0">
       <div class="img-years">
-        <img src="{{ asset("/barberz/images/img_1.jpg") }}" alt="Image" class="img-fluid">
+        <img src="{{ asset("/barberz/images/img_12.jpg") }}" alt="Image" class="img-fluid">
         <div class="year">
           <span>3 <span>years in <br>excellent service</span></span>
         </div>
@@ -127,7 +127,7 @@
       <div class="nonloop-block-13 owl-carousel d-flex">
         
         <div class="item-1 h">
-          <img src="{{ asset("/barberz/images/img_1.jpg") }}" alt="Image" class="img-fluid">
+          <img src="{{ asset("/barberz/images/img_12.jpg") }}" alt="Image" class="img-fluid">
           <div class="item-1-contents">
             <h3>Haircut</h3>
             <ul>
@@ -142,7 +142,7 @@
         </div>
 
         <div class="item-1 h">
-          <img src="{{ asset("/barberz/images/img_2.jpg") }}" alt="Image" class="img-fluid">
+          <img src="{{ asset("/barberz/images/img_13.jpg") }}" alt="Image" class="img-fluid">
           <div class="item-1-contents">
             <h3>Hair Styling</h3>
             <ul>
@@ -274,21 +274,21 @@
   <div class="row hair-style">
     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
       <a href="#" class="place">
-        <img src="{{ asset("/barberz/images/img_1.jpg") }}" alt="Image placeholder">
+        <img src="{{ asset("/barberz/images/img_12.jpg") }}" alt="Image placeholder">
         <h2>Beard Shaving</h2>
         <span>$50.00 only</span>
       </a>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
       <a href="#" class="place">
-        <img src="{{ asset("/barberz/images/img_2.jpg") }}" alt="Image placeholder">
+        <img src="{{ asset("/barberz/images/img_13.jpg") }}" alt="Image placeholder">
         <h2>Crew Cut</h2>
         <span>$45.00 only</span>
       </a>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
       <a href="#" class="place">
-        <img src="{{ asset("/barberz/images/img_3.jpg") }}" alt="Image placeholder">
+        <img src="{{ asset("/barberz/images/img_16.jpg") }}" alt="Image placeholder">
         <h2>Beard Trim</h2>
         <span>$55.00 only</span>
       </a>
@@ -319,9 +319,11 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-3">
-      <img src="{{ asset("/barberz/ages/img_1.jpg") }}" alt="Image" class="img-fluid mb-5">
-      <h2 class="footer-heading mb-3">About Us</h2>
+<h2 class="footer-heading mb-3">About Us</h2>
+      <img src="{{ asset("/barberz/ages/img_11.jpg") }}" alt="Image" class="img-fluid mb-5">
+      
           <p>We are the boss in and haircuts for all your family members. We will be groomed you. Come to our shop you will be fall in love with us. </p>
+
     </div>
     <div class="col-lg-8 ml-auto">
       <div class="row">
