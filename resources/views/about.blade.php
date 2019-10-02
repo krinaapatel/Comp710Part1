@@ -26,7 +26,6 @@
 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-    
     <div class="site-wrap" id="home-section">
 
       <div class="site-mobile-menu site-navbar-target">
@@ -47,29 +46,39 @@
 
             <div class="col-3 ">
               <div class="site-logo">
+
                  <a href="{{url('/')}}">Barbershop</a>
+
+                 
+
               </div>
             </div>
 
             <div class="col-9  text-right">
+
               
+
+              
+
 
               <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
 
-              
+
 
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
-          <ul class="site-menu main-menu js-clone-nav ml-auto ">
-            <li><a href="{{url('appointmentBooking')}}" class="nav-link">Book Appoitment</a></li>
-           <li><a href="{{url('services-page')}}" class="nav-link">Services</a></li>
-             <li><a href="{{url('Gallery')}}" class="nav-link">Gallery</a></li>
-            <li  class="active"><a href="{{url('about')}}" class="nav-link">About</a></li>
-            <li><a href="{{url('contact')}}" class="nav-link">Contact Us</a></li>
-          </ul>
-        </nav>
+         <ul class="site-menu main-menu js-clone-nav ml-auto ">
+           <li><a href="{{url('appointmentBooking')}}" class="nav-link">Book Appoitment</a></li>
+           <li><a href="{{url('about')}}" class="nav-link">About Us</a></li>
+          <li><a href="{{url('services-page')}}" class="nav-link">Services</a></li>
+             <li  class="active"><a href="{{url('Gallery')}}" class="nav-link">Gallery</a></li>
+
+           <li><a href="{{url('contact')}}" class="nav-link">Contact Us</a></li>
+         </ul>
+       </nav>
             </div>
 
-            
+
+
           </div>
         </div>
 
@@ -82,7 +91,9 @@
             <div class="col-md-7">
               <h1 class="mb-3">About Us</h1>
               <p>If you are looking for the finest in men's grooming, we are confident that you will find barbershop’s unmatched product quality and prestigious tradition extremely compelling.</p>
+
               <p><a href="#" class="btn btn-primary">Learn More</a></p>
+
             </div>
           </div>
         </div>
@@ -94,7 +105,9 @@
         <div class="row">
           <div class="col-lg-6 mb-5 mb-lg-0">
             <div class="img-years">
-              <img src="{{ asset("/barberz/images/img_1.jpg")}}" alt="Image" class="img-fluid">
+
+              <img src="{{ asset("/barberz/images/img_12.jpg")}}" alt="Image" class="img-fluid">
+
               <div class="year">
                 <span>3 <span>years in <br>excellent service</span></span>
               </div>
@@ -103,63 +116,76 @@
           </div>
           <div class="col-lg-5 ml-auto pl-lg-5 text-center">
             <h3 class="scissors text-center">High Quality Hair Styles</h3>
-            <p class="mb-5 lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt nemo vel earum maxime neque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt nemo vel earum maxime neque!</p>
-            
+
+            <p class="mb-5 lead">We call our self experts in hairstyling. we have expert barbers who works for customer satisfaction. Come do vist us you will fall in love with us</p>
+
+
           </div>
         </div>
       </div>
     </div>
-    
-   
 
     
+   
 
     <div class="site-section section-3" data-stellar-background-ratio="0.5" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-7 text-center mb-5">
-            <h2 class="text-white scissors primary-color-icon text-center">Quality Haircut</h2>
-            <p class="lead text-white mb-5">Provide quality hair cut and services to the customer.</p>
+
+            <h2 class="text-white scissors primary-color-icon text-center">Why Us</h2>
+            <p class="lead text-white mb-5">We offer wide range of services with using high quality branded products </p>
+
             <p><a href="{{url('contact')}}" class="btn btn-primary">Contact Us Now</a></p>
           </div>
         </div>
       </div>
     </div>
 
-    
 
   <footer class="site-footer">
 <div class="container">
   <div class="row">
     <div class="col-lg-3">
-      <img src="{{ asset("/barberz/images/img_1.jpg") }}" alt="Image" class="img-fluid mb-5">
-      <h2 class="footer-heading mb-3">About Us</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+<h2 class="footer-heading mb-3">About Us</h2>
+      <img src="{{ asset("/barberz/images/img_11.jpg") }}" alt="Image" class="img-fluid mb-5">
+      
+          <p> If you are looking for the finest in men's grooming, we are confident that you will find barbershop’s unmatched product quality and prestigious tradition extremely compelling.</p>
     </div>
     <div class="col-lg-8 ml-auto">
       <div class="row">
         <div class="col-lg-6 ml-auto">
           <h2 class="footer-heading mb-4">Quick Links</h2>
           <ul class="list-unstyled">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact Us</a></li>
+
+            <li><a href="{{url('about')}}">About Us</a></li>
+            <li><a href="{{url('services-page')}}">Services</a></li>
+            <li><a href="{{url('Gallery')}}">Gallery</a></li>
+            <li><a href="{{url('contact')}}">Contact Us</a></li>
+          </ul>
           </ul>
         </div>
         <div class="col-lg-6">
           <h2 class="footer-heading mb-4">Contact Us</h2>
-          
-		   <a href="#" class="fa fa-facebook"></a>
+
+        
+          <h2 class="footer-heading mb-4">Address</h2>
+          <p>174 Clarkin Road, Fairfield,<br> Hamilton 3791</p>
+           <p>Phone : (07) 855 6874 or 02102844736</p>
+            <p>Email : bosscutshamilton@gmail.com</p>
+	     <a href="#" class="fa fa-facebook"></a>
              <a href="#" class="fa fa-google"></a>
-            <a href="#" class="fa fa-linkedin"></a>
+             <a href="#" class="fa fa-linkedin"></a>
              <a href="#" class="fa fa-youtube"></a>
              <a href="#" class="fa fa-instagram"></a>
+
             
           </ul>
 		
         </div>
-        
+
+
+
       </div>
     </div>
   </div>
@@ -212,5 +238,6 @@ function myFunction() {
 </script>
 
   </body>
+
 
 </html>

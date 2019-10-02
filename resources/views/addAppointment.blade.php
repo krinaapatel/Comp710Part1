@@ -56,14 +56,17 @@
 
 
             <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                <li class="active"><a href="{{url('services')}}" class="nav-link">Book Appoitment</a></li>
-                   <li><a href="{{url('about')}}" class="nav-link">About Us</a></li>
-                   <li><a href="{{url('services-page')}}" class="nav-link">Services</a></li>
-                   <li><a href="{{url('Gallery')}}" class="nav-link">Gallery</a></li>
-                   <li><a href="{{url('contact')}}" class="nav-link">Contact</a></li>
-              </ul>
-            </nav>
+
+             <ul class="site-menu main-menu js-clone-nav ml-auto ">
+               <li><a href="{{url('appointmentBooking')}}" class="nav-link">Book Appoitment</a></li>
+               <li><a href="{{url('about')}}" class="nav-link">About Us</a></li>
+              <li><a href="{{url('services-page')}}" class="nav-link">Services</a></li>
+                 <li  class="active"><a href="{{url('Gallery')}}" class="nav-link">Gallery</a></li>
+
+               <li><a href="{{url('contact')}}" class="nav-link">Contact Us</a></li>
+             </ul>
+           </nav>
+
           </div>
 
 
@@ -136,7 +139,7 @@
                       </div>
 
                     </div>
-                    
+
 
                     <div class="col-md-4">
 
@@ -160,22 +163,12 @@
                       </div>
 
                     </div>
+
                     <div class="col-md-4">
 
                       <div class="form-group">
 
-                        <label>Country</label><br>
-
-                        <input type="text" required name="country" class="form-control" style="width:100%;">
-
-                      </div>
-
-                    </div>
-                    <div class="col-md-4">
-
-                      <div class="form-group">
-
-                        <label>Pincode</label><br>
+                        <label>Postcode</label><br>
 
                         <input type="text" required name="pincode" class="form-control" style="width:100%;">
 
@@ -294,24 +287,30 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
-            <img src="{{ asset("/barberz/images/img_1.jpg") }}" alt="Image" class="img-fluid mb-5">
+            <img src="{{ asset("/barberz/images/img_11.jpg") }}" alt="Image" class="img-fluid mb-5">
             <h2 class="footer-heading mb-3">About Us</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+            <p>We are the boss in hairstyling and haircuts for all your family members. We will be groomed you. Come to our shop you will be fall in love with us. </p>
           </div>
           <div class="col-lg-8 ml-auto">
             <div class="row">
               <div class="col-lg-6 ml-auto">
                 <h2 class="footer-heading mb-4">Quick Links</h2>
                 <ul class="list-unstyled">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Gallery</a></li>
-                  <li><a href="#">Contact Us</a></li>
+
+                  <li><a href="{{url('about')}}">About Us</a></li>
+                  <li><a href="{{url('services-page')}}">Services</a></li>
+                  <li><a href="{{url('Gallery')}}">Gallery</a></li>
+                  <li><a href="{{url('contact')}}">Contact Us</a></li>
+
                 </ul>
               </div>
               <div class="col-lg-6">
                 <h2 class="footer-heading mb-4">Address</h2>
-                
+
+                <p>174 Clarkin Road, Fairfield,<br> Hamilton 3791</p>
+	              <p>Phone : (07) 855 6874 or 02102844736</p>
+	              <p>Email : bosscutshamilton@gmail.com</p>
+
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-google"></a>
                 <a href="#" class="fa fa-linkedin"></a>
@@ -382,9 +381,9 @@
         success: function(response) { // What to do if we succeed
           //if(data == "success")
           console.log(response);
-          $(servicesOption).append('<option selected="selected" value="" disabled>Select Services</option>'); //add input box
+          //add input box
           for (var i = 0; i <= response.length; i++) {
-            
+
             var select = '';
 
             $(servicesOption).append('<option value="' + response[i].servicesId + '">' + response[i].services + '</option>'); //add input box
@@ -395,8 +394,8 @@
       var percentage = 0;
       var checkCustomer = 0;
       jQuery(".servicesOption").change(function() {
-        
-         
+
+
        // alert(finaldate);
         var price = $("#price");
 
@@ -415,7 +414,7 @@
 
             for (var i = 0; i < response.length; i++) {
               $(price).val(response[i].price);
-             
+
             }
           }
         });
@@ -428,7 +427,7 @@
                   },
                   success: function(contactData) { // What to do if we succeed
                     if (contactData.length >= 1) {
-                      checkCustomer = 1;  
+                      checkCustomer = 1;
 
                     } else {
                       checkCustomer = 2;
@@ -451,34 +450,28 @@
               } else if (response[i].age <= 12 && ageText <= 12) {
                 percentage = response[i].percentage;
               } else {
-                
+
                    if (checkCustomer == 1) {
                       if (response[i].from) {
                         var fromDate = new Date($("#date").val());
-                          
+
                            var fromDate = new Date($("#date").val());
-                        var dd = fromDate.getDate(); 
-                        var finalmm = fromDate.getMonth() + 1; 
-                        
+                        var dd = fromDate.getDate();
+                        var finalmm = fromDate.getMonth() + 1;
+
                         var mm = ("0" + finalmm).slice(-2);
-                        var yyyy = fromDate.getFullYear(); 
+                        var yyyy = fromDate.getFullYear();
                         var finalDate=yyyy+'-'+mm +'-'+dd;
 
-                        // var minDate = new Date(response[i].from);
-                        // var maxDate =  new Date(response[i].to);
-                        // var checkDate =  new Date(finalDate);
-
                         
+
                         if (finalDate >= response[i].from && finalDate <= response[i].to ){
-                        //if(minDate >= checkDate &&  maxDate <= checkDate){
-                             
+                        
                           percentage = response[i].percentage;
                           console.log(percentage);
                          // alert(percentage);
-                        }                        
-                        
-                        
-                        
+                        }
+
                       }
 
                     }
@@ -487,8 +480,6 @@
                            percentage = response[i].percentage;
                          }
                     }
-                   
-                    
 
                   }
 
@@ -502,14 +493,10 @@
               var total=price-discount;
               $("#totalPrice").val(total);
             }
-          
 
         });
 
-
       });
-
-
 
     });
   </script>
