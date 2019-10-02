@@ -96,7 +96,7 @@
         </div>
         <div class="row">
          <div class="col-lg-8 mb-5">
-                     <div class="mapouter"><div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.061037281332!2d175.2769541150021!3d-37.76516697976114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6d1884f6c5c635%3A0x7d26e0eb9706c29e!2s174%20Clarkin%20Rd%2C%20Fairfield%2C%20Hamilton%203214!5e0!3m2!1sen!2snz!4v1570011198193!5m2!1sen!2snz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe><a href="https://usave.co.uk">usave</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+                     <div class="mapouter"><div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.061037281332!2d175.2769541150021!3d-37.76516697976114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6d1884f6c5c635%3A0x7d26e0eb9706c29e!2s174%20Clarkin%20Rd%2C%20Fairfield%2C%20Hamilton%203214!5e0!3m2!1sen!2snz!4v1570011198193!5m2!1sen!2snz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
           </div>
           <div class="col-lg-4 ml-auto">
             <div class="bg-white p-3 p-md-5">
@@ -120,8 +120,8 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-3">
-      <img src="{{ asset("/barberz/images/img_1.jpg") }}" alt="Image" class="img-fluid mb-5">
       <h2 class="footer-heading mb-3">About Us</h2>
+      <img src="{{ asset("/barberz/images/img_11.jpg") }}" alt="Image" class="img-fluid mb-5">
           <p>We are the boss in hairstyling and haircuts for all your family members. We will be groomed you. Come to our shop you will be fall in love with us.</p>
     </div>
     <div class="col-lg-8 ml-auto">
