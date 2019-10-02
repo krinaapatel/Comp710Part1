@@ -158,7 +158,7 @@
         </div>
 
         <div class="item-1 h">
-          <img src="{{ asset("/barberz/images/img_3.jpg") }}" alt="Image" class="img-fluid">
+          <img src="{{ asset("/barberz/images/img_14.jpg") }}" alt="Image" class="img-fluid">
           <div class="item-1-contents">
             <h3>Hair Scalp Care</h3>
             <ul>
