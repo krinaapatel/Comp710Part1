@@ -319,19 +319,19 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-3">
-      <img src="{{ asset("/barberz/images/img_1.jpg") }}" alt="Image" class="img-fluid mb-5">
+      <img src="{{ asset("/barberz/ages/img_1.jpg") }}" alt="Image" class="img-fluid mb-5">
       <h2 class="footer-heading mb-3">About Us</h2>
-          <p>we are confident that you will find barbershop’s unmatched product quality and prestigious tradition extremely compelling. </p>
+          <p>We are the boss in and haircuts for all your family members. We will be groomed you. Come to our shop you will be fall in love with us. </p>
     </div>
     <div class="col-lg-8 ml-auto">
       <div class="row">
         <div class="col-lg-6 ml-auto">
           <h2 class="footer-heading mb-4">Quick Links</h2>
           <ul class="list-unstyled">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="{{url('about')}}">About Us</a></li>
+            <li><a href="{{url('services-page')}}">Services</a></li>
+            <li><a href="{{url('Gallery')}}">Gallery</a></li>
+            <li><a href="{{url('contact')}}">Contact Us</a></li>
           </ul>
         </div>
         <div class="col-lg-6">
