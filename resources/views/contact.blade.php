@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{ asset("/barberz/fonts/icomoon/style.css") }}">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset("/barberz/css/bootstrap.min.css") }}">
     <link rel="stylesheet" href="{{ asset("/barberz/css/bootstrap-datepicker.css") }}">
     <link rel="stylesheet" href="{{ asset("/barberz/css/jquery.fancybox.min.css") }}">
@@ -140,12 +140,12 @@
           <p>174 Clarkin Road, Fairfield,<br> Hamilton 3791</p>
           <p>Phone : (07) 855 6874 or 02102844736</p>
           <p>Email : bosscutshamilton@gmail.com</p>          
-		        <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-google"></a>
             <a href="#" class="fa fa-linkedin"></a>
             <a href="#" class="fa fa-youtube"></a>
             <a href="#" class="fa fa-instagram"></a>
-		
+    
         </div>
         
       </div>

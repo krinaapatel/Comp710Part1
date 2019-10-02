@@ -93,8 +93,6 @@
 
 	<section class="content-header">
 
-		<h1>Search Services</h1>
-
     </section>
 
   <!-- Main content -->
@@ -109,7 +107,7 @@
 
             <div class="box-header">
 
-              <h3 class="box-title">Services Search result column</h3>
+              <h3 class="box-title">Services result column</h3>
 
             </div>
 

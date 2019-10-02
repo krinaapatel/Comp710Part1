@@ -8,7 +8,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset("/barberz/fonts/icomoon/style.css") }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset("/barberz/css/bootstrap.min.css") }}">
     <link rel="stylesheet" href="{{ asset("/barberz/css/bootstrap-datepicker.css") }}">
     <link rel="stylesheet" href="{{ asset("/barberz/css/jquery.fancybox.min.css") }}">
@@ -41,6 +41,7 @@
 
   <div class="container">
     <div class="row align-items-center position-relative">
+
 
       <div class="col-3 ">
         <div class="site-logo">
@@ -275,20 +276,25 @@
     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
       <a href="#" class="place">
         <img src="{{ asset("/barberz/images/img_12.jpg") }}" alt="Image placeholder">
+
         <h2>Beard Shaving</h2>
         <span>$50.00 only</span>
       </a>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
       <a href="#" class="place">
+
         <img src="{{ asset("/barberz/images/img_13.jpg") }}" alt="Image placeholder">
+
         <h2>Crew Cut</h2>
         <span>$45.00 only</span>
       </a>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-6 col-12">
       <a href="#" class="place">
+
         <img src="{{ asset("/barberz/images/img_16.jpg") }}" alt="Image placeholder">
+
         <h2>Beard Trim</h2>
         <span>$55.00 only</span>
       </a>
@@ -319,10 +325,12 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-3">
+
 <h2 class="footer-heading mb-3">About Us</h2>
       <img src="{{ asset("/barberz/ages/img_11.jpg") }}" alt="Image" class="img-fluid mb-5">
       
           <p>We are the boss in and haircuts for all your family members. We will be groomed you. Come to our shop you will be fall in love with us. </p>
+
 
     </div>
     <div class="col-lg-8 ml-auto">
@@ -334,6 +342,7 @@
             <li><a href="{{url('services-page')}}">Services</a></li>
             <li><a href="{{url('Gallery')}}">Gallery</a></li>
             <li><a href="{{url('contact')}}">Contact Us</a></li>
+
           </ul>
         </div>
         <div class="col-lg-6">
@@ -341,12 +350,14 @@
           <p>174 Clarkin Road, Fairfield,<br> Hamilton 3791</p>
           <p>Phone : (07) 855 6874 or 02102844736</p>
           <p>Email : bosscutshamilton@gmail.com</p>
-          <a href="#" class="fa fa-facebook"></a>
+
+		      <a href="#" class="fa fa-facebook"></a>
+
           <a href="#" class="fa fa-google"></a>
           <a href="#" class="fa fa-linkedin"></a>
           <a href="#" class="fa fa-youtube"></a>
           <a href="#" class="fa fa-instagram"></a>
-    
+
         </div>
         
       </div>

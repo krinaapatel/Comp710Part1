@@ -22,10 +22,6 @@
   <link rel="stylesheet" href="{{ asset("/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css")}}">
   <!-- DataTables -->
   <link rel="stylesheet" href="{{ asset("/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css")}}">
-  <!-- iCheck for checkboxes and radio inputs -->
-  <link rel="stylesheet" href="{{ asset("/plugins/iCheck/all.css")}}">
-  <!-- Bootstrap Color Picker -->
-  <link rel="stylesheet" href="{{ asset("/bower_components/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css")}}">
   <!-- Bootstrap time Picker -->
   <link rel="stylesheet" href="{{ asset("/plugins/timepicker/bootstrap-timepicker.min.css")}}">
   <!-- Select2 -->
@@ -36,22 +32,22 @@
        folder instead of downloading all of them to reduce the load. -->
        <link rel="stylesheet" href="{{ asset("/dist/css/skins/_all-skins.min.css")}}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.min.css">
-  
+
   <!-- jQuery 3 -->
   <!-- Multiple select dropdown -->
   <link rel="stylesheet" type="text/css" href="{{ asset("css/multi-select.css")}}">
   <script src="{{ asset("js/jquery.multi-select.js")}}"></script>
   <script src="{{ asset("js/pair-select.min.js")}}"></script>
   <script src="{{ asset("js/main.js")}}"></script>
-  
+
   <!-- Multiple select dropdown -->
 
   <!-- Google Font -->
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-        
+
     <style>
-    
+
     .entry:not(:first-of-type)
     {
         margin-top: 10px;
@@ -66,11 +62,11 @@
 </head>
 
 <body class="hold-transition skin-blue layout-top-nav">
-<div class="wrapper">  
-    @include('partials.header')   
-     @include('flash-message')   
+<div class="wrapper">
+    @include('partials.header')
+     @include('flash-message')
     @yield('content')
-    
+
     <footer class="main-footer">
     <div class="pull-right hidden-xs">
       <b>Version</b> 1.0
@@ -131,12 +127,12 @@
       'info'        : true,
       'autoWidth'   : false,
 	  "scrollX" : true
-	  
+
     })
   })
 </script>
 <script>
- 
+
   function myFunction() {
     var x = document.getElementById("fields");
     if (x.style.display === "none") {
@@ -145,7 +141,7 @@
         x.style.display = "none";
     }
 }
-  
+
 
 
 </script>

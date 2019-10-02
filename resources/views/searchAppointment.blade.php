@@ -8,7 +8,6 @@
 
 	<section class="content-header">
 
-		<h1>Search Appointment</h1>
 
     </section>
 
@@ -24,7 +23,7 @@
 
             <div class="box-header">
 
-              <h3 class="box-title">Appointment Search result column</h3>
+              <h3 class="box-title">Appointment result column</h3>
 
             </div>
 
