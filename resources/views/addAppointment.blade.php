@@ -284,7 +284,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
-            <img src="{{ asset("/barberz/images/img_1.jpg") }}" alt="Image" class="img-fluid mb-5">
+            <img src="{{ asset("/barberz/images/img_11.jpg") }}" alt="Image" class="img-fluid mb-5">
             <h2 class="footer-heading mb-3">About Us</h2>
             <p>We are the boss in hairstyling and haircuts for all your family members. We will be groomed you. Come to our shop you will be fall in love with us. </p>
           </div>
