@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="{{ asset("/barberz/fonts/icomoon/style.css") }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset("/barberz/css/bootstrap.min.css") }}">
@@ -24,54 +23,52 @@
   </head>
 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-    <div class="site-wrap" id="home-section">
+<div class="site-wrap" id="home-section">
 
-    <div class="site-mobile-menu site-navbar-target">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
+<!-- Display mobile menu -->
+<div class="site-mobile-menu site-navbar-target">
+  <div class="site-mobile-menu-header">
+    <div class="site-mobile-menu-close mt-3">
+      <span class="icon-close2 js-menu-toggle"></span>
     </div>
+  </div>
+  <div class="site-mobile-menu-body"></div>
+</div>
 
 
+<!-- Display navigation bar -->
+<header class="site-navbar site-navbar-target header" role="banner" id="myHeader">
 
-    <header class="site-navbar site-navbar-target header" role="banner" id="myHeader">
+  <div class="container">
+    <div class="row align-items-center position-relative">
 
-      <div class="container">
-        <div class="row align-items-center position-relative">
-
-          <div class="col-3 ">
-            <div class="site-logo">
-              <a href="#">Barbershop</a>
-            </div>
-          </div>
-
-          <div class="col-9  text-right">
-            
-
-            <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
-
-            
-
-            <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                <li class="active"><a href="{{url('appointmentBooking')}}" class="nav-link">Book Appoitment</a></li>
-               <!-- <li><a href="services.html" class="nav-link">Services</a></li>
-                <li><a href="barber-shop.html" class="nav-link">Barber Shop</a></li>
-                <li><a href="about.html" class="nav-link">About</a></li>
-                <li><a href="blog.html" class="nav-link">Blog</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>-->
-              </ul>
-            </nav>
-          </div>
-
-          
+      <div class="col-3 ">
+        <div class="site-logo">
+          <a href="{{url('/')}}">Barbershop</a>
         </div>
       </div>
 
-    </header>
+      <div class="col-9  text-right">
+        
+
+        <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
+
+        <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+          <ul class="site-menu main-menu js-clone-nav ml-auto ">
+            <li><a href="{{url('appointmentBooking')}}" class="nav-link">Book Appoitment</a></li>
+            <li><a href="{{url('about')}}" class="nav-link">About Us</a></li>
+            <li><a href="{{url('services-page')}}" class="nav-link">Services</a></li>
+            <li><a href="{{url('Gallery')}}" class="nav-link">Gallery</a></li>
+            <li><a href="{{url('contact')}}" class="nav-link">Contact Us</a></li
+          </ul>
+        </nav>
+      </div>
+
+      
+    </div>
+  </div>
+
+</header>
 @include('flash-message')
 <div class="ftco-blocks-cover-1">
 <div class="site-section-cover overlay" data-stellar-background-ratio="0.5" style="background-image: url('images/hero_1.jpg')">
@@ -80,7 +77,7 @@
       <div class="col-md-7">
         <h1 class="mb-3">More Than Just A Haircut</h1>
         <p>We are offering different type of services hair cut, shaving, Face Message.</p>
-        <p><a href="#" class="btn btn-primary">Read More</a></p>
+        <p><a href="{{url('Gallery')}}" class="btn btn-primary">Learn More</a></p>
       </div>
     </div>
   </div>
@@ -100,10 +97,9 @@
 
     </div>
     <div class="col-lg-5 ml-auto pl-lg-5 text-center">
-      <h3 class="scissors text-center">Welcome To Barberzshop</h3>
-      <p class="mb-5 lead">If you are looking for the finest in men's grooming, we are confident that you will find barbershop’s unmatched product quality and prestigious tradition extremely compelling.
-</p>
-      <p><a href="#" class="btn btn-primary">Learn More</a></p>
+      <h3 class="scissors text-center">Welcome To Barbershop</h3>
+      <p class="mb-5 lead">If you are looking for the finest in men's grooming, we are confident that you will find barbershop’s unmatched product quality and prestigious tradition extremely compelling.</p>
+      <p><a href="{{url('about')}}" class="btn btn-primary">Learn More</a></p>
     </div>
   </div>
 </div>
@@ -116,7 +112,7 @@
   <div class="row justify-content-center  mb-5">
     <div class="col-md-7 text-center">
       <h3 class="scissors text-center">Services &amp; Pricing</h3>
-      <p class="mb-5 lead">This barbershop offers its exclusive clientele a new level of luxury service unrivalled anywhere in the city</p>
+      <p class="mb-5 lead">This barbershop offers its exclusive clientele a new level of luxury service unrivalled anywhere in the city.</p>
 
       <p class="text-center">
         <a href="#" class="btn btn-primary custom-prev">Prev</a>
@@ -183,41 +179,7 @@
 </div>
 
 
-<div class="site-section">
-<div class="container">
-  <div class="row justify-content-center mb-5">
-    <div class="col-md-7 text-center">
-      <h3 class="scissors text-center">More Hair Styles</h3>
-      <p class="mb-5 lead">Welcome to our shops that has various type of styles available here. Come and book and appointment with latest offers</p>
-    </div>
-  </div>
-  <div class="row hair-style">
-    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-      <a href="#" class="place">
-        <img src="{{ asset("/barberz/images/img_1.jpg") }}" alt="Image placeholder">
-        <h2>Beard Shaving</h2>
-        <span>$50.00 only</span>
-      </a>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-      <a href="#" class="place">
-        <img src="{{ asset("/barberz/images/img_2.jpg") }}" alt="Image placeholder">
-        <h2>Crew Cut</h2>
-        <span>$50.00 only</span>
-      </a>
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
-      <a href="#" class="place">
-        <img src="{{ asset("/barberz/images/img_3.jpg") }}" alt="Image placeholder">
-        <h2>Beard Trim</h2>
-        <span>$50.00 only</span>
-      </a>
-    </div>
-    
-  </div>
-</div>
-</div>
-<!-- END section -->
+
 
 <div class="site-section section-3" data-stellar-background-ratio="0.5" style="background-image: url('images/hero_2.jpg');">
 <div class="container">
@@ -291,7 +253,7 @@
         </span>
         <div class="service-1-contents">
           <h3>Massages</h3>
-          <p></p>
+          <p>Provide full body massage and manycure pedicure.</p>
         </div>
       </div>
     </div>
@@ -301,6 +263,43 @@
 </div>
 
 
+<div class="site-section">
+<div class="container">
+  <div class="row justify-content-center mb-5">
+    <div class="col-md-7 text-center">
+      <h3 class="scissors text-center">More Hair Styles</h3>
+      <p class="mb-5 lead">Welcome to our shops that has various type of styles available here. Come and book and appointment with latest offers.</p>
+    </div>
+  </div>
+  <div class="row hair-style">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+      <a href="#" class="place">
+        <img src="{{ asset("/barberz/images/img_1.jpg") }}" alt="Image placeholder">
+        <h2>Beard Shaving</h2>
+        <span>$50.00 only</span>
+      </a>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+      <a href="#" class="place">
+        <img src="{{ asset("/barberz/images/img_2.jpg") }}" alt="Image placeholder">
+        <h2>Crew Cut</h2>
+        <span>$45.00 only</span>
+      </a>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+      <a href="#" class="place">
+        <img src="{{ asset("/barberz/images/img_3.jpg") }}" alt="Image placeholder">
+        <h2>Beard Trim</h2>
+        <span>$55.00 only</span>
+      </a>
+    </div>
+    
+  </div>
+</div>
+</div>
+<!-- END section -->
+
+
 
 <div class="site-section section-3" data-stellar-background-ratio="0.5" style="background-image: url('images/hero_1.jpg');">
 <div class="container">
@@ -308,7 +307,7 @@
     <div class="col-7 text-center mb-5">
       <h2 class="text-white scissors primary-color-icon text-center">Quality Haircut</h2>
       <p class="lead text-white mb-5">We serve services as per users aspectation and satisfaction.</p>
-      <p><a href="#" class="btn btn-primary">Contact Us Now</a></p>
+      <p><a href="{{url('contact')}}" class="btn btn-primary">Contact Us Now</a></p>
     </div>
   </div>
 </div>
@@ -320,9 +319,9 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-3">
-      
+      <img src="{{ asset("/barberz/images/img_1.jpg") }}" alt="Image" class="img-fluid mb-5">
       <h2 class="footer-heading mb-3">About Us</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+          <p>we are confident that you will find barbershop’s unmatched product quality and prestigious tradition extremely compelling. </p>
     </div>
     <div class="col-lg-8 ml-auto">
       <div class="row">
@@ -332,23 +331,20 @@
             <li><a href="#">About Us</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Gallery</a></li>
-            
             <li><a href="#">Contact Us</a></li>
           </ul>
         </div>
         <div class="col-lg-6">
           <h2 class="footer-heading mb-4">Address</h2>
           <p>174 Clarkin Road, Fairfield,<br> Hamilton 3791</p>
-	   <p>Phone : (07) 855 6874 or 02102844736</p>
-	   <p>Email : bosscutshamilton@gmail.com</p>
-	    <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-google"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-            <a href="#" class="fa fa-youtube"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            
-          </ul>
-		
+          <p>Phone : (07) 855 6874 or 02102844736</p>
+          <p>Email : bosscutshamilton@gmail.com</p>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-instagram"></a>
+    
         </div>
         
       </div>
@@ -359,9 +355,9 @@
       <div class="border-top pt-5">
         <p>
       
-       <strong>Copyright &copy; 2019 <a href="#">Barbershop</a>.</strong> All rights
+       <strong>Copyright &copy; 2019 <a href="#">Barber</a>.</strong> All rights
     reserved.
-     
+      
       </p>
       </div>
     </div>
@@ -374,15 +370,15 @@
 
 <script src="{{ asset("/barberz/js/jquery-3.3.1.min.js") }}"></script>
     <script src="{{ asset("/barberz/js/jquery-migrate-3.0.0.js") }}"></script>
-    
+    <script src="{{ asset("/barberz/js/popper.min.js") }}"></script>
     <script src="{{ asset("/barberz/js/bootstrap.min.js") }}"></script>
     <script src="{{ asset("/barberz/js/owl.carousel.min.js") }}"></script>
     <script src="{{ asset("/barberz/js/jquery.sticky.js") }}"></script>
-    
-    
+    <script src="{{ asset("/barberz/js/jquery.waypoints.min.js") }}"></script>
+    <script src="{{ asset("/barberz/js/jquery.animateNumber.min.js") }}"></script>
     <script src="{{ asset("/barberz/js/jquery.fancybox.min.js") }}"></script>
-    
-    
+    <script src="{{ asset("/barberz/js/jquery.stellar.min.js") }}"></script>
+    <script src="{{ asset("/barberz/js/jquery.easing.1.3.js") }}"></script>
     <script src="{{ asset("/barberz/js/bootstrap-datepicker.min.js") }}"></script>
     <script src="{{ asset("/barberz/js/aos.js") }}"></script>
 
