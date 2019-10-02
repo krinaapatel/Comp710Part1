@@ -54,16 +54,5 @@ Route::resource('services','ServicesController');
 Route::resource('discount','DiscountController');
 Route::resource('role','RoleController');
 
-
-
-
-
-
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
-
-
-Route::get('/superAdmin', function(){
-   
-    return view('/dashbord');
-})->middleware('auth','SuperAdmin');
