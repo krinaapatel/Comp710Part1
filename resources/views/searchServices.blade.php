@@ -69,9 +69,9 @@
 
 				
 
-                    <div class="col-lg-2">
+          <div class="col-lg-2">
 
-					<button type="remove" class="btn btn-success btn-block btn-flat"><a href="{{ URL::previous() }}">Cancel</a></button>
+					 <button type="remove" class="btn btn-success btn-block btn-flat"><a href="{{ URL::previous() }}">Cancel</a></button>
 
 					</div>
 
@@ -91,7 +91,6 @@
 
 	<section class="content-header">
 
-		<h1>Search Services</h1>
 
     </section>
 
@@ -107,7 +106,7 @@
 
             <div class="box-header">
 
-              <h3 class="box-title">Services Search result column</h3>
+              <h3 class="box-title">Services result column</h3>
 
             </div>
 

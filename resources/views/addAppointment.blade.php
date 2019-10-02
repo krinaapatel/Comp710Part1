@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Barberz &mdash; </title>
+  <title>Barbershop</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -44,7 +44,7 @@
 
           <div class="col-3 ">
             <div class="site-logo">
-              <a href="index.html">Barberz</a>
+              <a href="#">Barbershop</a>
             </div>
           </div>
 
@@ -58,11 +58,10 @@
             <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
               <ul class="site-menu main-menu js-clone-nav ml-auto ">
                 <li class="active"><a href="{{url('services')}}" class="nav-link">Book Appoitment</a></li>
-                <!-- <li><a href="services.html" class="nav-link">Services</a></li>
-            <li><a href="barber-shop.html" class="nav-link">Barber Shop</a></li>
-            <li><a href="about.html" class="nav-link">About</a></li>
-            <li><a href="blog.html" class="nav-link">Blog</a></li>
-            <li><a href="contact.html" class="nav-link">Contact</a></li>-->
+                   <li><a href="{{url('about')}}" class="nav-link">About Us</a></li>
+                   <li><a href="{{url('services-page')}}" class="nav-link">Services</a></li>
+                   <li><a href="{{url('Gallery')}}" class="nav-link">Gallery</a></li>
+                   <li><a href="{{url('contact')}}" class="nav-link">Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -119,7 +118,7 @@
 
                       <div class="form-group">
 
-                        <label>Contact No.</label><br>
+                        <label>Phone</label><br>
 
                         <input type="text" name="contact" id="contact" required class="form-control" style="width:100%;">
 
@@ -130,24 +129,14 @@
 
                       <div class="form-group">
 
-                        <label>Address Line1.</label><br>
+                        <label>Address</label><br>
 
                         <input type="text" name="address1" required class="form-control" style="width:100%;">
 
                       </div>
 
                     </div>
-                    <div class="col-md-4">
-
-                      <div class="form-group">
-
-                        <label>Address Line2.</label><br>
-
-                        <input type="text" name="address2" class="form-control" style="width:100%;">
-
-                      </div>
-
-                    </div>
+                    
 
                     <div class="col-md-4">
 
@@ -315,18 +304,14 @@
                 <h2 class="footer-heading mb-4">Quick Links</h2>
                 <ul class="list-unstyled">
                   <li><a href="#">About Us</a></li>
-                  <li><a href="#">Testimonials</a></li>
-                  <li><a href="#">Terms of Service</a></li>
-                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Gallery</a></li>
                   <li><a href="#">Contact Us</a></li>
                 </ul>
               </div>
               <div class="col-lg-6">
-                <h2 class="footer-heading mb-4">Newsletter</h2>
-                <form action="#" class="d-flex" class="subscribe">
-                  <input type="text" class="form-control mr-3" placeholder="Email">
-                  <input type="submit" value="Send" class="btn btn-primary">
-                </form>
+                <h2 class="footer-heading mb-4">Address</h2>
+                
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-google"></a>
                 <a href="#" class="fa fa-linkedin"></a>
@@ -345,7 +330,7 @@
             <div class="border-top pt-5">
               <p>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                <strong>Copyright &copy; 2019 <a href="#">Barber</a>.</strong> All rights9
+                <strong>Copyright &copy; 2019 <a href="#">Barbershop</a>.</strong> All rights
                 reserved.
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
@@ -399,7 +384,7 @@
           console.log(response);
           $(servicesOption).append('<option selected="selected" value="" disabled>Select Services</option>'); //add input box
           for (var i = 0; i <= response.length; i++) {
-            // 	console.log(response[i].instituteId)
+            
             var select = '';
 
             $(servicesOption).append('<option value="' + response[i].servicesId + '">' + response[i].services + '</option>'); //add input box
@@ -430,7 +415,7 @@
 
             for (var i = 0; i < response.length; i++) {
               $(price).val(response[i].price);
-              // $(subInstituteList).append('<option value="'+ response[i].subInstituteId+'" '+select+'>'+response[i].subInstituteName +'</option>'); //add input box
+             
             }
           }
         });

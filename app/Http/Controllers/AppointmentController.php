@@ -16,6 +16,12 @@ class AppointmentController extends Controller
     public function index()
     {
         //
+        $appointment_mst = DB::select("SELECT appointment_mst.*,services_mst.services as services_name FROM `appointment_mst` INNER JOIN services_mst ON services_mst.servicesId=appointment_mst.services WHERE appointment_mst.deleteData='1'
+        ");
+		$appointment_mst = json_decode(json_encode($appointment_mst), true);
+        
+        return view('searchAppointment', compact('appointment_mst'));
+
     }
 
     /**
@@ -100,5 +106,25 @@ class AppointmentController extends Controller
     public function destroy(Appointment $appointment)
     {
         //
+    }
+    public function allServices(Request $request){
+
+        $services = DB::table('services_mst')->where('deleteData', '=', '1')->get();
+       return $services;
+    }
+    public function getPrice(Request $request){
+        $serviceId = $request['serviceId'];
+        $services = DB::table('services_mst')->where('servicesId', '=', $serviceId)->get();
+       return $services;
+    }
+    public function checkCustomer(Request $request){
+        $contact = $request['contact'];
+        $services = DB::table('appointment_mst')->where('contact', '=', $contact)->get();
+       return $services;
+    }
+
+    public function getAge(Request $request){
+        $discount = DB::table('discount_mst')->where('deleteData', '=', '1')->get();
+        return $discount;
     }
 }
