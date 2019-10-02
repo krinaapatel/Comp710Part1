@@ -47,7 +47,7 @@
 
             <div class="col-3 ">
               <div class="site-logo">
-                 <a href="{{url('/')}}">Barbershop</a>
+                 <a href="#">Barbershop</a>
               </div>
             </div>
 
@@ -59,14 +59,15 @@
 
 
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
-          <ul class="site-menu main-menu js-clone-nav ml-auto ">
-            <li><a href="{{url('appointmentBooking')}}" class="nav-link">Book Appoitment</a></li>
-            <li  class="active"><a href="{{url('about')}}" class="nav-link">About Us</a></li>
-           <li><a href="{{url('services-page')}}" class="nav-link">Services</a></li>
-             <li><a href="{{url('Gallery')}}" class="nav-link">Gallery</a></li>
-            <li><a href="{{url('contact')}}" class="nav-link">Contact Us</a></li>
-          </ul>
-        </nav>
+         <ul class="site-menu main-menu js-clone-nav ml-auto ">
+           <li><a href="{{url('appointmentBooking')}}" class="nav-link">Book Appoitment</a></li>
+           <li><a href="{{url('about')}}" class="nav-link">About Us</a></li>
+          <li><a href="{{url('services-page')}}" class="nav-link">Services</a></li>
+             <li  class="active"><a href="{{url('Gallery')}}" class="nav-link">Gallery</a></li>
+
+           <li><a href="{{url('contact')}}" class="nav-link">Contact Us</a></li>
+         </ul>
+       </nav>
             </div>
 
 
@@ -142,7 +143,7 @@
           </ul>
         </div>
         <div class="col-lg-6">
-          <h2 class="footer-heading mb-4">Contact Us</h2>
+          <h2 class="footer-heading mb-4">Address</h2>
           <p>174 Clarkin Road, Fairfield,<br> Hamilton 3791</p>
            <p>Phone : (07) 855 6874 or 02102844736</p>
             <p>Email : bosscutshamilton@gmail.com</p>
