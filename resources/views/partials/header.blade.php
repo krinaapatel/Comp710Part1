@@ -12,9 +12,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="{{url('dashbord')}}">Dashboard <span class="sr-only">(current)</span></a></li>
+            
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Master <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dashboard <span class="caret"></span></a>
               <?php $role = Auth::user()->roleId; ?>
               <ul class="dropdown-menu" role="menu">
               
