@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
   <head>
@@ -90,7 +90,7 @@
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-7">
               <h1 class="mb-3">About Us</h1>
-              <p>If you are looking for the finest in men's grooming, we are confident that you will find barbershop’s unmatched product quality and prestigious tradition extremely compelling.</p>
+              <p>If you are looking for the finest in grooming, we are confident that you will find barbershop’s unmatched product quality and prestigious tradition extremely compelling.</p>
 
               <p><a href="#" class="btn btn-primary">Learn More</a></p>
 
