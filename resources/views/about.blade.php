@@ -47,18 +47,18 @@
             <div class="col-3 ">
               <div class="site-logo">
 
-                 <a href="{{url('/')}}">Barbershop</a>
+                 <a href="#">Barbershop</a>
 
-                 
+
 
               </div>
             </div>
 
             <div class="col-9  text-right">
 
-              
 
-              
+
+
 
 
               <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
@@ -125,8 +125,8 @@
       </div>
     </div>
 
-    
-   
+
+
 
     <div class="site-section section-3" data-stellar-background-ratio="0.5" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
@@ -149,7 +149,7 @@
     <div class="col-lg-3">
 <h2 class="footer-heading mb-3">About Us</h2>
       <img src="{{ asset("/barberz/images/img_11.jpg") }}" alt="Image" class="img-fluid mb-5">
-      
+
           <p> If you are looking for the finest in men's grooming, we are confident that you will find barbershop’s unmatched product quality and prestigious tradition extremely compelling.</p>
     </div>
     <div class="col-lg-8 ml-auto">
@@ -168,7 +168,7 @@
         <div class="col-lg-6">
           <h2 class="footer-heading mb-4">Contact Us</h2>
 
-        
+
           <h2 class="footer-heading mb-4">Address</h2>
           <p>174 Clarkin Road, Fairfield,<br> Hamilton 3791</p>
            <p>Phone : (07) 855 6874 or 02102844736</p>
@@ -179,9 +179,9 @@
              <a href="#" class="fa fa-youtube"></a>
              <a href="#" class="fa fa-instagram"></a>
 
-            
+
           </ul>
-		
+
         </div>
 
 
